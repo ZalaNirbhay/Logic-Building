@@ -4,9 +4,9 @@
 # first way 
 def reverse_array(arr):
     rev_array=[]
-    for i in range(len(arr)-1, 0, -1):
+    for i in range(len(arr)-1, -1, -1):
         rev_array.append(arr[i])
-    return rev_array + [arr[0]]
+    return rev_array 
 # second way
 def reverse_array_1(arr):
     rev_array=[]

@@ -31,9 +31,10 @@ arr = [1,0,0,3,12]
 print(move_zero_end(arr))
                 
 
+def removeDuplicates(nums):
+    return set(nums)
 
-
-
+print(removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
 
 
 

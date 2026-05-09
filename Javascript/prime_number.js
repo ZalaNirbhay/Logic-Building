@@ -7,3 +7,4 @@ function primnumber(num) {
 }
 
 console.log(primnumber(21));
+
